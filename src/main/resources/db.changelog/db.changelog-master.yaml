@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - include:
+      file: migrations/createTable1.sql
+      relativeToChangeLogFile: true
+  - include:
+      file: migrations/createTable2.sql
+      relativeToChangeLogFile: true
+  - include:
+      file: migrations/insert.sql
+      relativeToChangeLogFile: true
